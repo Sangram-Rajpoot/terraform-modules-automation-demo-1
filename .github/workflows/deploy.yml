@@ -38,4 +38,4 @@ jobs:
       run: terraform apply -auto-approve
       
     - name: Upload Website Files
-      run: aws s3 sync website/ s3://your-bucket-name --delete
+      run: aws s3 sync website/ s3://sangram-s3-v3-unique-2026 --delete
